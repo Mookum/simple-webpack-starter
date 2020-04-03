@@ -3,6 +3,7 @@
 
 # My setup:
 Macbook pro - Catalina
+
 Yarn installed
 - `brew install yarn`
 
@@ -24,7 +25,7 @@ includes following:
 # **Setup**
 
 clone project:
-`git@github.com:Mookum/simple-webpack-starter.git`
+`git clone git@github.com:Mookum/simple-webpack-starter.git`
 
 cd into project: run `yarn install` or `npm install`
 
