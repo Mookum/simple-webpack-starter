@@ -4,18 +4,28 @@
   "description": "Frontend workflow build with webpack",
   "private": true,
   "license": "MIT",
+  "browserslist": [
+    "last 2 versions",
+    "IE > 10"
+  ],
   "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "css-loader": "^3.4.2",
+    "css-mqpacker": "^7.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "fiber": "^1.0.4",
     "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
+    "postcss": "^7.0.27",
     "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
-    "sass-loader": "^8.0.2",
+    "fibers": "^4.0.1",
     "sass": "^1.22.10",
-    "fibers": "^4.0.1"
+    "sass-loader": "^8.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
