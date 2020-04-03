@@ -1,5 +1,12 @@
 {
   "name": "frontend",
+  "author": {
+    "name": "Porschmann David",
+    "email": "david@porschmann.be"
+  },
+  "repository": {
+    "url": "https://github.com/Mookum/simple-webpack-starter"
+  },
   "version": "1.0.0",
   "description": "Frontend workflow build with webpack",
   "private": true,
