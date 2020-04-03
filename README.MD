@@ -11,9 +11,9 @@ node version
 13.12.0
 - `node -v`
 
-# This is a ready to go webpack starter kit. Its not to complicated and
-includes following:
+# This is a ready to go webpack starter kit.
 
+This includes
 - Watch
 - scss / sass
 - postcss
