@@ -1,0 +1,4 @@
+/.idea
+*.*.map
+*-error.log
+node_modules
