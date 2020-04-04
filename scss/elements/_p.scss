@@ -1,0 +1,4 @@
+p {
+  @extend .font-primary;
+  @include setFont(1.6rem);
+}

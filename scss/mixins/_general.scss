@@ -1,0 +1,12 @@
+@mixin setFont($size, $weight: 400) {
+  font-size: $size;
+  line-height: calcLh($size);
+  font-weight: $weight;
+  margin: 0;
+  padding: 0;
+}
+
+// calculate line height
+@function calcLh($n) {
+  @return ($n + .8rem);
+}

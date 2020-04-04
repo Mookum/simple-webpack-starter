@@ -1,8 +1,7 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: purple;
-}
-
+@import "fonts/index",
+        "init/index",
+        "mixins/index",
+        "root/index",
+        "elements/index";
 
 

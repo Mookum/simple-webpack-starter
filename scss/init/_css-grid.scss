@@ -1,0 +1,50 @@
+.grid {
+
+  &__container {
+    width: 100%;
+    max-width: 100rem;
+    margin: 3rem auto;
+    background-color: #eee;
+
+    display: grid;
+    grid-template-rows: repeat(2, 15rem);
+    //grid-template-columns: 15rem 1fr 15rem;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-gap: 2rem;
+  }
+
+  &__item {
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.8rem;
+
+    &-1 {
+      background-color: orangered;
+      grid-row: 2 / 3;
+      grid-column: 2 / 3;
+    }
+
+    &-2 {
+      background-color: blue;
+    }
+
+    &-3 {
+      background-color: green;
+    }
+
+    &-4 {
+      background-color: darkred;
+    }
+
+    &-5 {
+      background-color: brown;
+      grid-row: 1 / 1;
+      grid-column: 3 / 4;
+    }
+
+    &-6 {
+      background-color: violet;
+    }
+  }
+}

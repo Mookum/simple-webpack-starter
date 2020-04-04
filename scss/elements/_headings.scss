@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5, h6 {
+  @extend .font-primary;
+}
+
+h1 {
+  @include setFont(3.5rem);
+}
+
+h2 {
+  @include setFont(3rem);
+}
+
+h3 {
+  @include setFont(2.5rem, $semi-bold);
+}
+
+h4 {
+  @include setFont(2.5rem, $bold);
+}
+
+h5 {
+  @include setFont(2rem, $semi-bold);
+}
+
+h6 {
+  @include setFont(2rem, $bold);
+}
